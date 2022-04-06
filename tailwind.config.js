@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["public/index.html"],
+  content: ["public/index.html","public/services.html","public/contact.html"],
   theme: {fontSize: {
     'xs': '.75rem',
     'sm': '.875rem',
