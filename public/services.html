@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="build/tailwind.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aspen Carpet Cleaning - Home</title>
+</head>
+<body>
+    
+    <header class="flex flex-col w-full">
+      <nav class="w-full bg-red-900">
+        <ul class="flex text-center justify-center sm:justify-center md:justify-center lg:justify-end sm:items-center md:items-center lg:items-end w-full text-white ">
+          <li class="text-lg font-medium mr-3 p-3 hover:bg-red-700 hover:text-gray-300"><a href="./services.html" class="">Services</a></li>
+          <li class="text-lg font-medium mr-3 p-3 hover:bg-red-700 hover:text-gray-300" ><a href="./index.html" class="">Our Story</a></li>
+          <li class="text-lg font-medium mr-3 lg:mr-16 p-3 hover:bg-red-700 hover:text-gray-300 hover:cursor-pointer"><a href="./contact.html" class="">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="w-full flex flex-col items-center justify-center bg-yellow-700">
+        <h1 class="text-2xl sm:text-4xl md:text-6xl lg:text-7xl  text-center font-semibold text-white">Services</h1>
+        
+      </div>
+    </header>
+
+    
+    <!-- Contact Us -->
+    <section class="flex flex-col items-center ">
+      <h3 class="text-2xl m-12 text-center">Contact Us</h3>
+      <div class="flex justify-center items-center text-center p-3 mb-10  sm:w-5/6 md:w-5/6 lg:w-1/3  sm:border-0 md:border-0 lg:border-2">
+        <form action="php/email.php" method="post">
+            <label class="text-xl text-red-900 font-semibold text-center p-5"for="first_name">First Name:</label>
+            <input class="border-2 m-5" type="text" id="fname" name="first_name" placeholder="Kyle"><br>
+            <label class="text-xl text-red-900 font-semibold text-center p-3" for="last_name">Last Name:</label>
+            <input class="border-2 m-5" type="text" id="lname" name="last_name p-3"  placeholder="Kohli"><br>
+            <label class="text-xl text-red-900 font-semibold text-center p-3" for="email">Email Address:</label>
+            <input class="border-2 m-5" type="text" id="email" name="email" placeholder="kylekohli549@gmail.com"><br>
+            <label class="text-xl text-red-900 font-semibold text-center p-3"  for="phone">Phone Number:</label>
+            <input class="border-2 m-5" type="text" id="phone" name="phone" placeholder="614 407-8943"><br>
+            <label class="text-xl text-red-900 font-semibold text-center p-3" for="message">Message:</label><br>
+            <textarea class="border-2 w-5/6 m-5" type="textarea" id="message" name="message" placeholder="Hi Kyle..." cols="200" rows="15"></textarea><br>
+            <input class="text-xl text-white bg-red-900 font-semibold text-center px-5 py-3 hover:bg-red-700 hover:cursor-pointer" type="submit" name="submit" value="Submit" >
+        </form>
+      </div>
+
+    </section>
+
+
+    <footer class="text-white w-full bg-red-900 text-center p-2">
+      &copy; 2021 Kyle Kohli. All rights reserved.
+    </footer>
+</body>
+</html>
