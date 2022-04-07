@@ -681,17 +681,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-grayscale: grayscale(100%);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
+
+.font-stroke{
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
 .hover\:cursor-pointer:hover {
   cursor: pointer;
 }
+
 .hover\:bg-red-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(185 28 28 / var(--tw-bg-opacity));
 }
+
 .hover\:text-gray-300:hover {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
 }
+
 @media (min-width: 640px) {
 
   .sm\:w-3\/4 {
@@ -734,6 +743,7 @@ Ensure the default browser behavior of the `hidden` attribute.
     font-size: 1.875rem;
   }
 }
+
 @media (min-width: 768px) {
 
   .md\:h-4\/6 {
@@ -780,6 +790,7 @@ Ensure the default browser behavior of the `hidden` attribute.
     font-size: 2.25rem;
   }
 }
+
 @media (min-width: 1024px) {
 
   .lg\:mr-16 {
